@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-service-deployment
+  labels:
+    app: auth-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth-service
+  template:
+    metadata:
+      labels:
+        app: auth-service
+    spec:
+      containers:
+        - name: auth-service
+          image: auth-service:dev
+          ports:
+            - containerPort: 8888
+          env:
+            - name: KTOR_ENV
+              value: kube
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8888
+            initialDelaySeconds: 60
+            periodSeconds: 10
+          volumeMounts:
+            - name: keycloak-realms
+              mountPath: /opt/keycloak-realms
+      volumes:
+        - name: keycloak-realms
+          hostPath:
+            path: /Users/miguelanciaes/Desktop/multi-tenant-keycloak/keycloak-multi-tenant/keycloak-realms #replace-this
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-service
+spec:
+  type: ClusterIP
+  selector:
+    app: auth-service
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8888
+      targetPort: 8888

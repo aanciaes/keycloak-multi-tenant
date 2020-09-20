@@ -1,0 +1,114 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "satellite",
+      "type": "urn:backend:resources:satellite",
+      "ownerManagedAccess": false,
+      "displayName": "satellite",
+      "attributes": {},
+      "_id": "91ed3ba2-e2fa-4de9-b696-92a4d0337499",
+      "uris": [
+        "/satellite"
+      ],
+      "scopes": [
+        {
+          "name": "view"
+        },
+        {
+          "name": "edit"
+        },
+        {
+          "name": "delete"
+        },
+        {
+          "name": "create"
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "847baa4b-e9c7-4179-b290-69851f746800",
+      "name": "Default Policy",
+      "description": "A policy that grants access only for users within this realm",
+      "type": "js",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "code": "// by default, grants any permission associated with this policy\n$evaluation.grant();\n"
+      }
+    },
+    {
+      "id": "651c8a5f-9d76-416f-a445-8f65d56c4a73",
+      "name": "Admin Policy",
+      "description": "Admin Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"backend/Administrator\",\"required\":true}]"
+      }
+    },
+    {
+      "id": "e0ad70b5-cbca-4544-ac56-89ecfa44e17e",
+      "name": "User Policy",
+      "description": "User Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"backend/BasicUser\",\"required\":true}]"
+      }
+    },
+    {
+      "id": "51a04186-5db7-4651-8188-513855463a5e",
+      "name": "Admin On Satellite",
+      "description": "Admin On Satellite",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"satellite\"]",
+        "scopes": "[\"delete\",\"create\",\"view\",\"edit\"]",
+        "applyPolicies": "[\"Admin Policy\"]"
+      }
+    },
+    {
+      "id": "45ec49ce-a03f-4044-bd3c-914079550264",
+      "name": "BasicUser on Satellite",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"satellite\"]",
+        "scopes": "[\"view\"]",
+        "applyPolicies": "[\"User Policy\"]"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "id": "4e2cbcd5-791b-45e1-9847-542f3c8f8973",
+      "name": "view",
+      "displayName": "view"
+    },
+    {
+      "id": "e64b944f-bd29-40c3-b193-7b1fabb1e14f",
+      "name": "create",
+      "displayName": "create"
+    },
+    {
+      "id": "6cba9391-939c-4791-8449-e372818ba111",
+      "name": "edit",
+      "displayName": "edit"
+    },
+    {
+      "id": "0da5268a-ee80-466e-a70d-ddc632d40959",
+      "name": "delete",
+      "displayName": "delete"
+    }
+  ],
+  "decisionStrategy": "AFFIRMATIVE"
+}

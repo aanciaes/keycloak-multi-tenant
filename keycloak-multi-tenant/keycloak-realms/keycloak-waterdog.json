@@ -1,0 +1,13 @@
+
+{
+  "realm" : "waterdog",
+  "auth-server-url" : "http://localhost:8080/auth/",
+  "ssl-required" : "external",
+  "resource" : "backend",
+  "verify-token-audience" : true,
+  "credentials" : {
+    "secret" : "622a5e7a-4c61-45f4-b931-4c0227abdfdf"
+  },
+  "use-resource-role-mappings" : true,
+  "confidential-port" : 0
+}

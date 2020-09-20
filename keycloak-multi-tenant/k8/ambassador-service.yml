@@ -1,0 +1,34 @@
+---
+apiVersion: getambassador.io/v2
+kind: AuthService
+metadata:
+  name: authentication-service-filter
+spec:
+  auth_service: http://auth-service:8888
+  timeout_ms: 5000
+  path_prefix: /validate
+  allowed_authorization_headers:
+    - X-Authz-Token
+
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: default-mapping
+spec:
+  prefix: /
+  service: http://auth-service:8888
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ambassador
+spec:
+  type: LoadBalancer
+  externalTrafficPolicy: Local
+  ports:
+    - port: 80
+      targetPort: 8080
+  selector:
+    service: ambassador

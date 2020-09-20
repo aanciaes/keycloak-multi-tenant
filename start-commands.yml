@@ -1,0 +1,5 @@
+docker run -d -p 8080:8080 -v /Users/miguelanciaes/Desktop/multi-tenant-keycloak/realms:/tmp/realms -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -e KEYCLOAK_IMPORT=/tmp/realms/realm-aurora.json,/tmp/realms/realm-waterdog.json jboss/keycloak:latest
+
+npm start --prefix /Users/miguelanciaes/Desktop/multi-tenant-keycloak/keycloak-reactjs-demo
+
+/Users/miguelanciaes/Desktop/multi-tenant-keycloak/keycloak-multi-tenant/gradlew run

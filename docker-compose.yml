@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      - POSTGRES_DB=keycloak
+      - POSTGRES_USER=keycloak
+      - POSTGRES_PASSWORD=keycloak
+
+  keycloak:
+    container_name: keycloak
+    image: jboss/keycloak:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/Users/miguelanciaes/Desktop/multi-tenant-keycloak/realms:/tmp/realms"
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+      - KEYCLOAK_IMPORT=/tmp/realms/realm-aurora.json,/tmp/realms/realm-waterdog.json
+      - DB_VENDOR=postgres
+      - DB_ADDR=postgres
+      - DB_PORT=5432
+      - DB_DATABASE=keycloak
+      - DB_USER=keycloak
+      - DB_PASSWORD=keycloak
+    depends_on:
+      - postgres

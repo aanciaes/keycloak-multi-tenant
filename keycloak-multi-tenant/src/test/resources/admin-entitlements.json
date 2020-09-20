@@ -1,0 +1,46 @@
+{
+  "userId": "123456789",
+  "userName": "test-username",
+  "organizationId": "test-organization",
+  "role": {
+    "name": "Administrator",
+    "entitlements": [
+      {
+        "service": "satellite-management",
+        "resourcePermissions": [
+          {
+            "parentResource": "*",
+            "permissions": [
+              {
+                "actions": [
+                  "*"
+                ],
+                "resources": [
+                  "*"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "service": "user-management",
+        "resourcePermissions": [
+          {
+            "parentResource": "*",
+            "permissions": [
+              {
+                "actions": [
+                  "*"
+                ],
+                "resources": [
+                  "*"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "userId": "987654321",
+  "userName": "test-basic-user-username",
+  "organizationId": "test-another-organization",
+  "role": {
+    "name": "BasicUser",
+    "entitlements": [
+      {
+        "service": "satellite-management",
+        "resourcePermissions": [
+          {
+            "parentResource": "satellite",
+            "permissions": [
+              {
+                "actions": [
+                  "listSatellite"
+                ],
+                "resources": [
+                  "*"
+                ]
+              }
+            ]
+          },
+          {
+            "parentResource": "satellite:1",
+            "permissions": [
+              {
+                "actions": [
+                  "viewSatellite",
+                  "listSystem"
+                ],
+                "resources": [
+                  "*"
+                ]
+              },
+              {
+                "actions": [
+                  "viewSystem"
+                ],
+                "resources": [
+                  "system:1"
+                ]
+              }
+            ]
+          },
+          {
+            "parentResource": "satellite:2",
+            "permissions": [
+              {
+                "actions": [
+                  "*"
+                ],
+                "resources": [
+                  "*"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
