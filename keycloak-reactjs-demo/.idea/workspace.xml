@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fbd019d-63e1-4731-b174-bc685c1c4cef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keycloak-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/keycloak-aurora.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keycloak-waterdog.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/keycloak-waterdog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keycloak.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/keycloak.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AdminAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdminAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AdminOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdminOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KeycloakTester.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KeycloakTester.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProtectedAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProtectedAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PublicAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1Qk3mov09h2RBoOXHvjEGUFSGwt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fbd019d-63e1-4731-b174-bc685c1c4cef" name="Default Changelist" comment="" />
+      <created>1557617303897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557617303897</updated>
+      <workItem from="1557617305142" duration="1127000" />
+      <workItem from="1557767438334" duration="3584000" />
+      <workItem from="1557961352597" duration="1480000" />
+      <workItem from="1558039628200" duration="1350000" />
+      <workItem from="1558046046125" duration="4000" />
+      <workItem from="1558048395482" duration="203000" />
+      <workItem from="1558102298833" duration="777000" />
+      <workItem from="1558364786904" duration="672000" />
+      <workItem from="1558433517608" duration="2151000" />
+      <workItem from="1558445989703" duration="1135000" />
+      <workItem from="1559085532946" duration="331000" />
+      <workItem from="1559126329851" duration="3150000" />
+      <workItem from="1559136601376" duration="5058000" />
+      <workItem from="1559165594569" duration="1673000" />
+      <workItem from="1559656247358" duration="8405000" />
+      <workItem from="1560249995927" duration="2046000" />
+      <workItem from="1560269384649" duration="661000" />
+      <workItem from="1560348878399" duration="150000" />
+      <workItem from="1560901289257" duration="700000" />
+      <workItem from="1560903442430" duration="886000" />
+      <workItem from="1561390342275" duration="1015000" />
+      <workItem from="1568300931162" duration="2928000" />
+      <workItem from="1568640424787" duration="2188000" />
+      <workItem from="1568643779104" duration="31000" />
+      <workItem from="1568643826385" duration="4383000" />
+      <workItem from="1569425446321" duration="13000" />
+      <workItem from="1570236123103" duration="360000" />
+      <workItem from="1570754665925" duration="1000" />
+      <workItem from="1570809396875" duration="134000" />
+      <workItem from="1571053007801" duration="1406000" />
+      <workItem from="1571326661930" duration="299000" />
+      <workItem from="1571842520060" duration="395000" />
+      <workItem from="1571843310785" duration="181000" />
+      <workItem from="1571843995369" duration="263000" />
+      <workItem from="1572027271809" duration="9209000" />
+      <workItem from="1572047155704" duration="1642000" />
+      <workItem from="1572106125578" duration="5451000" />
+      <workItem from="1572135934311" duration="61000" />
+      <workItem from="1572136003428" duration="2324000" />
+      <workItem from="1572144628953" duration="512000" />
+      <workItem from="1572145613681" duration="500000" />
+      <workItem from="1572146222396" duration="257000" />
+      <workItem from="1573747615410" duration="192000" />
+      <workItem from="1576856992237" duration="2161000" />
+      <workItem from="1576972567905" duration="2997000" />
+      <workItem from="1577138948446" duration="2385000" />
+      <workItem from="1577152857940" duration="1372000" />
+      <workItem from="1577214160024" duration="503000" />
+      <workItem from="1577239381798" duration="3000" />
+      <workItem from="1582583020174" duration="1062000" />
+      <workItem from="1582656714069" duration="1144000" />
+      <workItem from="1585006921300" duration="1087000" />
+      <workItem from="1585160806268" duration="2059000" />
+      <workItem from="1585175778524" duration="20000" />
+      <workItem from="1585175909590" duration="15000" />
+      <workItem from="1585176921400" duration="810000" />
+      <workItem from="1585756106375" duration="859000" />
+      <workItem from="1586960249580" duration="20000" />
+      <workItem from="1586960686244" duration="873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1585778967923">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900/-228.-1080.1920.1080@0.0.1440.900" timestamp="1585756374517" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585778967923" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1585778967922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900/-228.-1080.1920.1080@0.0.1440.900" timestamp="1585756374515" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585778967922" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1585778967922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900/-228.-1080.1920.1080@0.0.1440.900" timestamp="1585756374514" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585778967922" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1585778967923">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900/-228.-1080.1920.1080@0.0.1440.900" timestamp="1585756374515" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585778967923" />
+    <state x="-213" y="-762" key="com.intellij.ide.util.TipDialog" timestamp="1586960687365">
+      <screen x="-228" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-213" y="-762" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1586960687365" />
+    <state x="11" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585160836610" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

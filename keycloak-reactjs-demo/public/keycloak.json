@@ -1,0 +1,8 @@
+{
+  "realm": "daimler",
+  "auth-server-url": "https://merc.goldenarm.io:8080/auth/",
+  "ssl-required": "external",
+  "resource": "shed-app",
+  "public-client": true,
+  "confidential-port": 0
+}

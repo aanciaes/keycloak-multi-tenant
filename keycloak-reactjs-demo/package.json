@@ -1,0 +1,38 @@
+{
+  "name": "keycloak-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "author": {
+    "name": "Niko Köbler",
+    "email": "niko@n-k.de",
+    "url": "https.//www.n-k.de"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.3.12",
+    "react-scripts": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "keycloak-js": "^5.0.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "5.1.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

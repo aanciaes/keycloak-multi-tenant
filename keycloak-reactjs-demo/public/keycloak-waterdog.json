@@ -1,0 +1,8 @@
+{
+  "realm": "waterdog",
+  "auth-server-url": "http://auth.mikesmacbookpro.local:8080/auth/",
+  "ssl-required": "external",
+  "resource": "frontend",
+  "public-client": true,
+  "confidential-port": 0
+}
